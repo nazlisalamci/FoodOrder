@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Food Order</string>
+    <string name="title_home">Anasayfa</string>
+    <string name="title_dashboard">Kontrol Paneli</string>
+    <string name="title_notifications">Bildirimler</string>
+
+    <string-array name="State">
+        <item>Istanbul</item>
+        <item>Ankara</item>
+    </string-array>
+
+    <string-array name="shipper">
+        <item>Shipper 1</item>
+        <item>Shipper 2</item>
+    </string-array>
+
+    <string-array name="DishName">
+        <item>Fettuccine Alfredo</item>
+        <item>Tortellini</item>
+        <item>Kalamar Dolması</item>
+        <item>Kılıç Külbastı</item>
+        <item>Fesleğen Soslu Levrek</item>
+        <item>Dana Bonfile</item>
+        <item>Kuzu Pirzola</item>
+        <item>Ahtapot Izgara</item>
+        <item>Acılı Karides Salatası</item>
+    </string-array>
+
+</resources>

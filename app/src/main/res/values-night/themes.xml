@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/yourSelectedColor</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/light_slate_blue</item>
+    </style>
+
+    <style name="AppThemeNoActionbar" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+<item name="windowActionBar">false</item>
+<item name="android:windowDisablePreview">true</item>
+</style>
+    </resources>

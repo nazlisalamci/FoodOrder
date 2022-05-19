@@ -1,0 +1,99 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.food_order.app"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.browser:browser:1.4.0'
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //GIF'leri getirmeyi, kodunu çözmeyi ve görüntülemeyi destekler.
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    //uygulamada var olan implementasyonlar
+    //Geriye uyumluluk kütüphanesi.
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    //meterial design kullanmak için eklediğimiz implementasyon.
+    implementation 'com.google.android.material:material:1.'
+    //Contrain Layout kullanmak için eklediğimiz iplementasyon.
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    //----------------------------------------------------------
+
+    //vektor oluşturmak için kullanılan implementasyon.
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+
+    //yuvarlak köşeli meterial design card view oluştumak için kullanılan implementasyon.
+    implementation 'androidx.cardview:cardview:1.0.0'
+    //görüntü yüklemesine olanak tanır
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //Artırma ve eksiltme düğmeleriyle bir sayı sayacı yapmak için kullanılır.
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    //recyclerview kullanmak için eklediğimiz implementasyon.
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+
+    //firebase implementasyonu
+    //sürümlerin uyumluluğunu sağlayan implementasyon
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation 'com.google.firebase:firebase-analytics'
+    //Firebase realtime database kullanmak için eklediğimiz implementasyon.
+    implementation 'com.google.firebase:firebase-database:20.0.5'
+    implementation 'com.google.firebase:firebase-messaging:23.0.3'
+    //Firebase autontication modülünü kullanmak için eklediğimiz implementasyon.
+    implementation 'com.google.firebase:firebase-auth:21.0.3'
+    //Firebase Storage modülünü kullanmak için eklediğimiz implementasyon.
+    //Görselleri kayıt etmek için kullandık.
+    implementation 'com.google.firebase:firebase-storage:20.0.1'
+    //----------------------------------------------------------
+
+    //Hareketli GIF'leri getirmeyi ve göürüntülemeyi destekler.
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    //görüntüyü kırpmaya yarar.
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+
+    //içeriğe girdikten sonra geri çıkmaya yarar.Fragment için
+    implementation 'androidx.navigation:navigation-fragment:2.4.2'
+    implementation 'androidx.navigation:navigation-ui:2.4.2'
+    //----------------------------------------------------------
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    //ülke telefon kodu seçici.
+    implementation 'com.hbb20:ccp:2.3.1'
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    //uygulamada var olan implementasyonlar
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    //----------------------------------------------------------
+
+     implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+     implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+}

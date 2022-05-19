@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/b-mus/Desktop/masterproject-master/app/src/main/res/layout/activity_chef__post_dish.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/b-mus/Desktop/masterproject-master/app/src/main/res/layout/activity_chef_food_panel__bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/b-mus/Desktop/masterproject-master/app/src/main/res/layout/activity_chef_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/b-mus/Desktop/masterproject-master/app/src/main/res/layout/activity_chef_order_dishes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/b-mus/Desktop/masterproject-master/app/src/main/res/layout/activity_chef_registeration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/b-mus/Desktop/masterproject-master/app/src/main/res/layout/activity_choose_one.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/activity_chef_order_dishes.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/activity_customer_payment.xml" value="0.25" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/activity_main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/activity_payable_orders.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/activity_registeration.xml" value="0.22" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/activity_update__delete__dish.xml" value="0.11764705882352941" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/cart_placeorder.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/chef_menu_update_delete.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/chef_orders.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/customer_payableorder.xml" value="0.33" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/customer_pendingorders.xml" value="0.184375" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/fragment_chef_home.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/fragment_chef_pendingorders.xml" value="0.184375" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/fragment_customercart.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/fragment_customerhome.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/fragment_customerorder.xml" value="0.25" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/layout/fragment_customerprofile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/nazli/StudioProjects/sonsonson-master/sonsonson-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_customer_payment.xml" value="0.161231884057971" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_payable_orders.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_customercart.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_customertrack.xml" value="0.165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

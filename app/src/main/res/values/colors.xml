@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F63131</color>
+    <color name="colorPrimaryDark">#910000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#5FB709</color>
+    <color name="Red">#EB0D0D</color>
+    <color name="blueish">#17A2C0</color>
+    <color name="Black">#000000</color>
+    <color name="Blacklogo">#262626</color>
+    <color name="defaultColor">#000000</color>
+    <color name="gray">#7E000000</color>
+    <color name="darkgray">#B2000000</color>
+    <color name="lightgray">#1D000000</color>
+    <color name="darkgreen">#026909</color>
+    <color name="OffWhite">#36FFFFFF</color>
+    <color name="DarkBlue">#250285</color>
+    <color name="foodOn_background">#000000</color>
+    <color name="ic_launcher_background">#000000</color>
+
+    <color name="yourSelectedColor">#ff0000</color>
+
+    //kullanırız diye ekledim
+    <color name="dark_orange_red">#DB4914</color>
+    <color name="orange_red">#FF4500</color>
+    <color name="tomato">#FF6347</color>
+    <color name="coral">#FF7F50</color>
+
+    <color name="dark_goldenrod">#B8860B</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="light_goldenrod">#EEDD82</color>
+    <color name="gold">#FFD700</color>
+    <color name="light_goldenrod_yellow">#FAFAD2</color>
+
+    <color name="dark_slate_blue">#483D8B</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="medium_slate_blue">#7B68EE</color>
+    <color name="light_slate_blue">#8470FF</color>
+
+    <color name="honeydew_4">#838B83</color>
+    <color name="honeydew_3">#C1CDC1</color>
+    <color name="honeydew_2">#E0EEE0</color>
+</resources>

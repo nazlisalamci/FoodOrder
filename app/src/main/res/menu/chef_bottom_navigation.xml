@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/chefHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Ana Sayfa" />
+
+
+    <item
+        android:id="@+id/PendingOrders"
+        android:icon="@drawable/ic_neworder"
+        android:title="Bekleyen Siparişler" />
+
+
+
+    <item
+        android:id="@+id/chefProfile"
+        android:icon="@drawable/ic_dish_spoon_knife"
+        android:title="Yemek Yayınla" />
+
+
+</menu>
